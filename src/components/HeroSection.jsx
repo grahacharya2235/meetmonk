@@ -10,7 +10,7 @@ function HeroSection() {
           playsInline
           className="w-full h-auto object-cover"
         >
-          <source src="/Home_Page.mp4" type="video/mp4" />
+          <source src="/Home_Page_with_text.mp4" type="video/mp4" />
         </video>
       </div>
 
@@ -28,29 +28,6 @@ function HeroSection() {
           Real-time AI-powered speech translation for meetings, conversations,
           and everything in between.
         </p>
-
-        <div className="flex gap-4 justify-center">
-          <button
-            onClick={() =>
-              document
-                .getElementById("demo")
-                .scrollIntoView({ behavior: "smooth" })
-            }
-            className="bg-gradient-to-r from-cyan-500 to-purple-600 text-white font-semibold px-8 py-3 rounded-lg hover:opacity-90 transition shadow-lg shadow-cyan-500/30"
-          >
-            Try for Free
-          </button>
-          <button
-            onClick={() =>
-              document
-                .getElementById("demo")
-                .scrollIntoView({ behavior: "smooth" })
-            }
-            className="border border-cyan-500/40 text-cyan-400 px-8 py-3 rounded-lg hover:bg-cyan-500/10 transition backdrop-blur-sm"
-          >
-            Watch Demo
-          </button>
-        </div>
       </div>
     </section>
   );

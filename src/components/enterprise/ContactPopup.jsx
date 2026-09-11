@@ -110,7 +110,7 @@ function ContactPopup({ onClose }) {
                 required
                 value={formData.contact}
                 onChange={handleChange}
-                placeholder="+91 98765 43210"
+                placeholder="+1 98XXX XXXXX"
                 className="w-full border border-gray-200 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-orange-500 transition"
               />
             </div>

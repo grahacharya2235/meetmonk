@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import FeaturesSection from "./components/FeaturesSection";
 import AboutSection from "./components/AboutSection";
-import DemoSection from "./components/DemoSection";
 import FeedbackSection from "./components/FeedbackSection";
 import Footer from "./components/Footer";
 import GovernmentPage from "./pages/GovernmentPage";
@@ -20,7 +19,6 @@ function App() {
             <HeroSection />
             <FeaturesSection />
             <AboutSection />
-            <DemoSection />
             <FeedbackSection />
             <Footer />
           </div>
