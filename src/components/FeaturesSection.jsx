@@ -2,25 +2,27 @@ import FeatureCard from "./FeatureCard";
 
 function FeaturesSection() {
   const features = [
-    {
-      icon: "🎙️",
-      title: "Real-time Speech",
-      description:
-        "Speak naturally and get instant, accurate translations as you talk.",
-    },
-    {
-      icon: "🌐",
-      title: "50+ Languages",
-      description:
-        "Communicate across the globe with support for a wide range of languages.",
-    },
-    {
-      icon: "⚡",
-      title: "Low Latency",
-      description:
-        "Lightning-fast processing keeps conversations smooth and natural.",
-    },
-  ];
+  {
+    icon: '🎙️',
+    title: 'Converse AI',
+    description: 'Real-time Seamless Conversational & Tactical and On-Ground Communication'
+  },
+  {
+    icon: '🌐',
+    title: 'MultiSpeak AI',
+    description: 'Multilingual Coordination and Meeting Intelligence with real-time interpretation, transcription, and automatic meeting notes on top of existing voice and video platforms.'
+  },
+  {
+    icon: '🔍',
+    title: 'NeuraSearch AI',
+    description: 'Cross-Language Analytics Over Grievance and Service Data'
+  },
+  {
+    icon: '⚡',
+    title: 'Low Latency',
+    description: 'Lightning-fast processing keeps conversations smooth and natural.'
+  }
+];
 
   return (
     <section className="py-20 px-6 bg-gray-50">
@@ -33,7 +35,7 @@ function FeaturesSection() {
           communication.
         </p>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <FeatureCard
               key={index}
