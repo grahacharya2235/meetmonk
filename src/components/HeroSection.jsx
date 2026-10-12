@@ -39,13 +39,13 @@ function HeroSection() {
           playsInline
           className="w-full h-auto object-cover"
         >
-          <source src="/meetmonk_vdo_3.mp4" type="video/mp4" />
+          <source src="/meetmonk_video_no_logo.mp4" type="video/mp4" />
         </video>
 
         {/* Mute/Unmute button */}
         <button
           onClick={toggleMute}
-          className="absolute bottom-4 right-4 bg-black/60 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-black/80 transition backdrop-blur-sm"
+          className="absolute top-4 right-4 bg-black/60 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-black/80 transition backdrop-blur-sm"
         >
           {isMuted ? "🔇 Unmute" : "🔊 Mute"}
         </button>
