@@ -58,7 +58,7 @@ function HeroSection() {
           playsInline
           className="w-full object-contain max-h-[60vh] bg-gray-950"
         >
-          <source src="/meetmonk_vdo_no_logo.mp4" type="video/mp4" />
+          <source src="/meetmonk_video_no_logo.mp4" type="video/mp4" />
         </video>
 
         {/* Mute/Unmute button */}
