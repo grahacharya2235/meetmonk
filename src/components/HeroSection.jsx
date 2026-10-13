@@ -56,7 +56,7 @@ function HeroSection() {
           loop
           muted
           playsInline
-          className="w-full object-cover max-h-[60vh]"
+          className="w-full object-contain max-h-[60vh] bg-gray-950"
         >
           <source src="/meetmonk_vdo_3.mp4" type="video/mp4" />
         </video>
