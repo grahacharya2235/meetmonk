@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import FeaturesSection from "./components/FeaturesSection";
 import AboutSection from "./components/AboutSection";
-import FeedbackSection from "./components/FeedbackSection";
+import MainPageUseCases from './components/MainPageUseCases'";
 import Footer from "./components/Footer";
 import GovernmentPage from "./pages/GovernmentPage";
 import EnterprisePage from "./pages/EnterprisePage";
