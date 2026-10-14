@@ -19,7 +19,7 @@ function App() {
             <HeroSection />
             <FeaturesSection />
             <AboutSection />
-            <FeedbackSection />
+            <MainPageUseCases />
             <Footer />
           </div>
         }
