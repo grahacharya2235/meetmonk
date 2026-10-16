@@ -13,7 +13,7 @@ const useCases = [
   },
 ]
 
-function MainPageUseCases() {
+function FeedbackSection() {
   const [activeIndex, setActiveIndex] = useState(0)
 
   return (
@@ -85,4 +85,4 @@ function MainPageUseCases() {
   )
 }
 
-export default MainPageUseCases
+export default FeedbackSection
