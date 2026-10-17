@@ -17,9 +17,9 @@ function App() {
           <div className="pt-16">
             <Navbar />
             <HeroSection />
-            <FeaturesSection />
             <AboutSection />
             <FeedbackSection />
+            <FeaturesSection />
             <Footer />
           </div>
         }
