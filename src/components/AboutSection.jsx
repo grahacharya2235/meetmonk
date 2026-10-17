@@ -7,10 +7,6 @@ function AboutSection() {
   return (
     <>
       <section className="min-h-screen bg-white flex flex-col items-center justify-center text-center px-6 py-20">
-        {/* Badge */}
-        <span className="text-orange-500 font-semibold text-sm tracking-widest uppercase mb-6">
-          Enterprise
-        </span>
 
         {/* Headline */}
         <h1 className="text-5xl md:text-7xl font-black text-black max-w-4xl leading-tight mb-6">
